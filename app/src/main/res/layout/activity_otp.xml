@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="30dp"
+                android:layout_gravity="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_character2"
+                android:background="@drawable/ic_backgroung2"/>
+
+            <TextView
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="Make your\nRestaurant online!"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_gravity="center"
+                    android:rotation="130"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_vpn_key_24"/>
+
+                <LinearLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edt1"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_margin="4dp"
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/border_curves"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"/>
+
+                    <EditText
+                        android:id="@+id/edt2"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_margin="4dp"
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/border_curves"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"/>
+
+                    <EditText
+                        android:id="@+id/edt3"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_margin="4dp"
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/border_curves"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"/>
+
+                    <EditText
+                        android:id="@+id/edt4"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_margin="4dp"
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/border_curves"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"/>
+
+                    <EditText
+                        android:id="@+id/edt5"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_margin="4dp"
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/border_curves"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"/>
+
+                    <EditText
+                        android:id="@+id/edt6"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:layout_margin="4dp"
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/border_curves"
+                        android:maxLength="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionDone"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/linearCountDown"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="Change phone number "/>
+
+                <TextView
+                    android:id="@+id/txtTimer"
+                    android:layout_marginStart="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="00:30 "/>
+
+
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_margin="24dp"
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="48dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:background="@drawable/ripple"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

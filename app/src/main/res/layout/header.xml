@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Account "/>
+
+        <TextView
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="X"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center|start"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_baseline_remove_circle_24"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Barbeque\nNation"/>
+
+        <ImageView
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginStart="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center|start"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_baseline_star_rate_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Be a part of ultimate digital\nrestaurant"/>
+
+        <TextView
+            android:gravity="center|start"
+            android:paddingStart="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Trail period ends in 5 days"/>
+
+        <Button
+            android:layout_margin="24dp"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_height="48dp"
+            android:text="Subscribe"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple"/>
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_baseline_local_offer_24"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Coupons"/>
+
+        <ImageView
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_add_circle_outline_24"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_baseline_notifications_active_24"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Notifications"/>
+
+        <ImageView
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_baseline_indeterminate_check_box_24"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Terms &amp; Conditions"/>
+
+        <ImageView
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:gravity="center"
+            android:drawablePadding="20dp"
+            android:drawableStart="@drawable/ic_baseline_support_agent_24"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="Support"/>
+
+        <ImageView
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

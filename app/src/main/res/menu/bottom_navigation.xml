@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bnHome"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/bntables"
+        android:icon="@drawable/ic_baseline_chair_24"
+        android:title="Booked Tables" />
+    <item
+        android:id="@+id/bnTakeAway"
+        android:icon="@drawable/ic_baseline_shopping_bag_24"
+        android:title="Take away orders" />
+    <item
+        android:id="@+id/bnMenu"
+        android:icon="@drawable/ic_baseline_menu_24"
+        android:title="Menu" />
+
+</menu>
